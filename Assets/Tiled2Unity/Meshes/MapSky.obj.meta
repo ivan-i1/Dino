@@ -1,0 +1,85 @@
+fileFormatVersion: 2
+guid: 31b0d01cf3ebdf3439edb8d7f0510f1b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Capa_de_Patrones_1_01+prueba
+    100002: Capa_de_Patrones_1_01+SkY2
+    100004: Capa_de_Patrones_1_01+tilesobjs
+    100006: Capa_de_patrones_2_00+SkY2
+    100008: //RootNode
+    400000: Capa_de_Patrones_1_01+prueba
+    400002: Capa_de_Patrones_1_01+SkY2
+    400004: Capa_de_Patrones_1_01+tilesobjs
+    400006: Capa_de_patrones_2_00+SkY2
+    400008: //RootNode
+    2300000: Capa_de_Patrones_1_01+prueba
+    2300002: Capa_de_Patrones_1_01+SkY2
+    2300004: Capa_de_Patrones_1_01+tilesobjs
+    2300006: Capa_de_patrones_2_00+SkY2
+    3300000: Capa_de_Patrones_1_01+prueba
+    3300002: Capa_de_Patrones_1_01+SkY2
+    3300004: Capa_de_Patrones_1_01+tilesobjs
+    3300006: Capa_de_patrones_2_00+SkY2
+    4300000: Capa_de_Patrones_1_01+prueba
+    4300002: Capa_de_Patrones_1_01+SkY2
+    4300004: Capa_de_Patrones_1_01+tilesobjs
+    4300006: Capa_de_patrones_2_00+SkY2
+    11400000: Capa_de_Patrones_1_01+prueba
+    11400002: Capa_de_Patrones_1_01+SkY2
+    11400004: Capa_de_Patrones_1_01+tilesobjs
+    11400006: Capa_de_patrones_2_00+SkY2
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 0
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

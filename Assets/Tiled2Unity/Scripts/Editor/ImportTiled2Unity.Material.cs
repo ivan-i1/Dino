@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Xml;
+using System.Xml.Linq;
+
+using UnityEditor;
+using UnityEngine;
+
+
+namespace Tiled2Unity
+{
+    // Partial class for the importer that deals with Materials
+    partial class ImportTiled2Unity
+    {
+        // We need to call this while the renderers on the model is having its material assigned to it
+        public Material FixMaterialForMeshRenderer(string objName, Renderer renderer)
+        {
+            string xmlPath = ImportUtils.GetXmlPath(objName);
+
+            XDocument xml = XDocument.Load(xmlPath);
+
+            var assignMaterials = xml.Root.Elements("AssignMaterial");
+
+            // Find an assignment that matches the mesh renderer
+            XElement match = assignMaterials.FirstOrDefault(el => el.Attribute("mesh").Value == renderer.name);
+
+            if (match == null)
+            {
+                // The names of our meshes in the AssignMaterials elements may be wrong
+                // This happened before when Unity replaced whitespace with underscore in our named meshes
+                // That case is handled now, but there may be others
+                StringBuilder builder = new StringBuilder();
+                builder.AppendFormat("Could not find mesh named '{0}' for material matching\n", renderer.name);
+                string choices = String.Join("\n  ", assignMaterials.Select(m => m.Attribute("mesh").Value).ToArray());
+                builder.AppendFormat("Choices are:\n  {0}", choices);
+
+                Debug.LogError(builder.ToString());
+                return null;
+            }
+
+            string materialName = match.Attribute("material").Value;
+            string materialPath = ImportUtils.GetMaterialPath(materialName);
+
+            // Assign the material
+            renderer.sharedMaterial = AssetDatabase.LoadAssetAtPath(materialPath, typeof(Material)) as Material;
+
+            // Set the sorting layer for the mesh
+            string sortingLayer = match.Attribute("sortingLayerName").Value;
+            if (!String.IsNullOrEmpty(sortingLayer) && !SortingLayerExposedEditor.GetSortingLayerNames().Contains(sortingLayer))
+            {
+                Debug.LogError(string.Format("Sorting Layer \"{0}\" does not exist. Check your Project Settings -> Tags and Layers", sortingLayer));
+                renderer.sortingLayerName = "Default";
+            }
+            else
+            {
+                renderer.sortingLayerName = sortingLayer;
+            }
+
+            // Set the sorting order
+            renderer.sortingOrder = ImportUtils.GetAttributeAsInt(match, "sortingOrder");
+
+            return renderer.sharedMaterial;
+        }
+    }
+}
