@@ -96,7 +96,9 @@ public class PlayerController : MonoBehaviour {
 			//if( _controller.isGrounded )
 			//	_animator.Play( Animator.StringToHash( "Idle" ) );
 		}*/
-		
+		if (_velocity.y > 0 && !Input.GetKey(KeyCode.UpArrow)){
+			_velocity.y = 0;
+		}
 		
 		// we can only jump whilst grounded
 		if( _controller.isGrounded && Input.GetKeyDown( KeyCode.UpArrow ) )
