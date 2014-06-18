@@ -9,11 +9,11 @@ public class killPlayer : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		if(target.collider.gameObject){
-			Destroy(target);
-		}
+		//if(target.collider.gameObject){
+		//	Destroy(target);
+		//}
 	}
 }
