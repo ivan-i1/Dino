@@ -11,8 +11,9 @@ public class killPlayer : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
-	}
+		//if(target.collider.gameObject){
+		//	Destroy(target);
+		//}
 
 	/*void OnTriggerEnter2D(Collider2D target){
 			Destroy(gameObject);
