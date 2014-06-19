@@ -34,6 +34,13 @@ public class PlayerController : MonoBehaviour {
 	{
 
 	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.gameObject.tag == "Enemy") {
+			Debug.Log("BBBB");
+		}
+	}
 	
 	#endregion
 	

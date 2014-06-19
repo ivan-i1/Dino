@@ -145,6 +145,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2002828270}
   m_GameObject: {fileID: 7662348}
   m_Mesh: {fileID: 4300006, guid: b0ee9f8898452f949be7de37a7bf24e4, type: 3}
+--- !u!1 &32111799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 32111801}
+  - 114: {fileID: 32111800}
+  m_Layer: 0
+  m_Name: EnergyBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &32111800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32111799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6bc0fda5f80cd44825e88fe08a4f92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barDisplay: 0
+  pos: {x: 20, y: 40}
+  size: {x: 60, y: 20}
+  progressBarEmpty: {fileID: 0}
+  progressBarFull: {fileID: 0}
+--- !u!4 &32111801
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32111799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
 --- !u!1 &119194236
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,13 +349,14 @@ GameObject:
   m_Component:
   - 4: {fileID: 217927491}
   - 212: {fileID: 217927492}
-  - 114: {fileID: 217927495}
   - 61: {fileID: 217927496}
   - 50: {fileID: 217927494}
   - 114: {fileID: 217927493}
+  - 114: {fileID: 217927497}
+  - 114: {fileID: 217927495}
   m_Layer: 9
   m_Name: dino
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -410,20 +455,17 @@ Rigidbody2D:
 --- !u!114 &217927495
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: b92d4df59e503714aa74610c9049422a,
-    type: 2}
-  m_PrefabInternal: {fileID: 2094021068}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 217927490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a1c25a02ce330a41ad0ef33c46306ad, type: 3}
+  m_Script: {fileID: 11500000, guid: bdebda748cfe2b84c84dd34b7667a7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: -25
-  runSpeed: 3
-  groundDamping: 10
-  jumpHeight: 1.5
-  maxFallSpeed: 10
+  energy: 1
+  energyDrainRate: .00999999978
+  resetAfterDeathTime: 5
 --- !u!61 &217927496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -436,6 +478,22 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .159999996, y: .159999996}
   m_Center: {x: 0, y: 0}
+--- !u!114 &217927497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 217927490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1c25a02ce330a41ad0ef33c46306ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravity: -25
+  runSpeed: 3
+  groundDamping: 10
+  jumpHeight: 1.5
+  maxFallSpeed: 10
 --- !u!1 &249912572
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +542,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 257642959}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Bunny
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -498,7 +556,7 @@ Transform:
   m_PrefabInternal: {fileID: 1275951982}
   m_GameObject: {fileID: 257642958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.51898408, y: -3.0308609, z: 0}
+  m_LocalPosition: {x: 2.08323598, y: -3.04136109, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2100815207}
@@ -1445,7 +1503,7 @@ GameObject:
   - 4: {fileID: 590709960}
   m_Layer: 9
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1457,7 +1515,7 @@ Transform:
   m_PrefabInternal: {fileID: 2094021068}
   m_GameObject: {fileID: 590709959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.06157851, y: -3.52411938, z: 0}
+  m_LocalPosition: {x: -1.08216918, y: -3.63736773, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 217927491}
@@ -1758,7 +1816,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 682270017}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Bunny
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1777,7 +1835,7 @@ Transform:
   m_Children:
   - {fileID: 1510091952}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &688863541
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,7 +2242,7 @@ Transform:
   - {fileID: 389108037}
   - {fileID: 1188574019}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &779066084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2671,6 @@ GameObject:
   - 33: {fileID: 953920035}
   - 65: {fileID: 953920034}
   - 23: {fileID: 953920033}
-  - 114: {fileID: 953920037}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2672,18 +2729,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
---- !u!114 &953920037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 953920032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88bfad1b3a9fb7a4c969e731a98e5d54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 217927490}
 --- !u!1 &978693159
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,11 +3133,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.51898408
+      value: 2.08323598
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.0308609
+      value: -3.04136109
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3125,6 +3170,14 @@ Prefab:
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -3566,7 +3619,7 @@ GameObject:
   - 50: {fileID: 1510091949}
   - 114: {fileID: 1510091948}
   - 114: {fileID: 1510091947}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: goodbunny
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3586,7 +3639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDistance: 2
-  gravity: -2
+  gravity: -15
 --- !u!114 &1510091948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4051,7 +4104,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -5979,11 +6040,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: b92d4df59e503714aa74610c9049422a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.06157851
+      value: -1.08216918
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b92d4df59e503714aa74610c9049422a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.52411938
+      value: -3.63736773
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b92d4df59e503714aa74610c9049422a, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6017,7 +6078,16 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 100000, guid: b92d4df59e503714aa74610c9049422a, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: b92d4df59e503714aa74610c9049422a, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11400002, guid: b92d4df59e503714aa74610c9049422a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b92d4df59e503714aa74610c9049422a, type: 2}
   m_RootGameObject: {fileID: 590709959}
   m_IsPrefabParent: 0
@@ -6035,7 +6105,7 @@ GameObject:
   - 50: {fileID: 2100815204}
   - 114: {fileID: 2100815203}
   - 114: {fileID: 2100815202}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: goodbunny
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -6055,7 +6125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AttackDistance: 2
-  gravity: -2
+  gravity: -15
 --- !u!114 &2100815203
 MonoBehaviour:
   m_ObjectHideFlags: 0

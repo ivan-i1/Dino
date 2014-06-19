@@ -38,6 +38,16 @@ public class Rabbit : MonoBehaviour {
 	{
 
 	}
+
+	IEnumerator WaitForAttack(float seconds)
+	{
+		Debug.Log ("B");
+		yield return new WaitForSeconds (seconds);
+		Debug.Log ("C");
+		_velocity = target.transform.position - transform.position;
+		_velocity.y += 1f;
+		currentState = State.Jumping;
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -45,16 +55,14 @@ public class Rabbit : MonoBehaviour {
 
 		switch (currentState) {
 		case State.Idle:
-			if (target.transform.position.x - AttackDistance / 2.0f > transform.position.x &&
-			    Vector3.Distance (target.transform.position, transform.position) < AttackDistance) {
+			if (target.transform.position.x > transform.position.x &&
+			    Vector3.Distance (target.transform.position, transform.position) <= AttackDistance) {
 				currentState = State.JumpTowardsPlayer;
 			}
 			break;
 
 		case State.JumpTowardsPlayer:
-			_velocity = target.transform.position - transform.position;
-			_velocity.y += 1f;
-			currentState = State.Jumping;
+			WaitForAttack(0.5f);
 			break;
 
 		case State.Jumping:
