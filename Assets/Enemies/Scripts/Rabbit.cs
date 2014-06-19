@@ -11,8 +11,8 @@ public class Rabbit : MonoBehaviour {
 
 	public float AttackDistance = 5f;
 	public float gravity = -25f;
-	public GameObject target;
 
+	private GameObject target;
 	private State currentState;
 	private CharacterController2D _controller;
 	private Vector3 _velocity;
@@ -22,6 +22,21 @@ public class Rabbit : MonoBehaviour {
 		currentState = State.Idle;
 
 		_controller = GetComponent<CharacterController2D>();
+		_controller.onControllerCollidedEvent += onControllerCollider;
+
+		target = GameObject.FindWithTag ("Player");
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.gameObject.tag == "Player") {
+			Debug.Log("AAAA");
+		}
+	}
+
+	void onControllerCollider( RaycastHit2D hit )
+	{
+
 	}
 	
 	// Update is called once per frame
