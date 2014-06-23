@@ -13,6 +13,7 @@ public class Rabbit : MonoBehaviour {
 	public float gravity = -15f;
 	public float AttackSpeed = 1.4f;
 	public float JumpHeight = 5f;
+	public bool IsAlwaysAttacking = false;
 
 	private GameObject target;
 	private State currentState;
@@ -56,13 +57,14 @@ public class Rabbit : MonoBehaviour {
 	void Update () {
 		_velocity = _controller.velocity;
 		bool isClose = Vector3.Distance (target.transform.position, transform.position) <= AttackDistance;
+		bool isRight = target.transform.position.x > transform.position.x;
 
 		switch (currentState) {
 		case State.Idle:
 			// - AttackDistance / 2.0f
 			_velocity.x = 0f;
 
-			if (target.transform.position.x - AttackDistance / 12.0f > transform.position.x && isClose) {
+			if (isClose && (IsAlwaysAttacking || target.transform.position.x - AttackDistance / 12.0f > transform.position.x)) {
 				currentState = State.JumpTowardsPlayer;
 			}
 			break;
@@ -72,7 +74,7 @@ public class Rabbit : MonoBehaviour {
 			//_velocity = target.transform.position - transform.position;
 			_velocity.y += JumpHeight;
 			//_velocity.x = Mathf.Min(AttackSpeed, _velocity.x + 0.3f); // jumps a bit ahead of the player
-			_velocity.x = AttackSpeed;
+			_velocity.x = isRight ? AttackSpeed : -AttackSpeed;
 			currentState = State.Jumping;
 			break;
 
