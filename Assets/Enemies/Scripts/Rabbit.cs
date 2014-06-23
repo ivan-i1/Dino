@@ -11,6 +11,8 @@ public class Rabbit : MonoBehaviour {
 
 	public float AttackDistance = 3f;
 	public float gravity = -15f;
+	public float AttackSpeed = 1.4f;
+	public float JumpHeight = 5f;
 
 	private GameObject target;
 	private State currentState;
@@ -49,16 +51,6 @@ public class Rabbit : MonoBehaviour {
 	{
 
 	}
-
-	IEnumerator WaitForAttack(float seconds)
-	{
-		Debug.Log ("B");
-		yield return new WaitForSeconds (seconds);
-		Debug.Log ("C");
-		_velocity = target.transform.position - transform.position;
-		_velocity.y += 1f;
-		currentState = State.Jumping;
-	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -78,9 +70,8 @@ public class Rabbit : MonoBehaviour {
 		case State.JumpTowardsPlayer:
 			//WaitForAttack(0.5f);
 			_velocity = target.transform.position - transform.position;
-			_velocity.y += 5f;
-			_velocity.x = Mathf.Min(2.0f, _velocity.x);
-			//_velocity.x *= 1.5f;
+			_velocity.y += JumpHeight;
+			_velocity.x = Mathf.Min(AttackSpeed, _velocity.x);
 			currentState = State.Jumping;
 			break;
 

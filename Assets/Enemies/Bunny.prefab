@@ -97,8 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f99e3ad51d258a48a9fd1a506b3610b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDistance: 2
+  AttackDistance: 3
   gravity: -15
+  AttackSpeed: 2.5999999
+  JumpHeight: 5
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,14 +113,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usePhysicsForMovement: 0
-  _skinWidth: .0199999996
+  _skinWidth: .123000003
   platformMask:
     serializedVersion: 2
     m_Bits: 1
   oneWayPlatformMask:
     serializedVersion: 2
     m_Bits: 0
-  slopeLimit: 30
+  slopeLimit: 54.7000008
   slopeSpeedMultiplier:
     serializedVersion: 2
     m_Curve:
