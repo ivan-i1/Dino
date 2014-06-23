@@ -62,16 +62,17 @@ public class Rabbit : MonoBehaviour {
 			// - AttackDistance / 2.0f
 			_velocity.x = 0f;
 
-			if (target.transform.position.x > transform.position.x) {
+			if (target.transform.position.x - AttackDistance / 12.0f > transform.position.x && isClose) {
 				currentState = State.JumpTowardsPlayer;
 			}
 			break;
 
 		case State.JumpTowardsPlayer:
 			//WaitForAttack(0.5f);
-			_velocity = target.transform.position - transform.position;
+			//_velocity = target.transform.position - transform.position;
 			_velocity.y += JumpHeight;
-			_velocity.x = Mathf.Min(AttackSpeed, _velocity.x);
+			//_velocity.x = Mathf.Min(AttackSpeed, _velocity.x + 0.3f); // jumps a bit ahead of the player
+			_velocity.x = AttackSpeed;
 			currentState = State.Jumping;
 			break;
 
