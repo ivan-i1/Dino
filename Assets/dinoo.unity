@@ -1394,8 +1394,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barDisplay: 0
-  pos: {x: 20, y: 40}
-  size: {x: 60, y: 20}
+  pos: {x: 20, y: 250}
+  size: {x: 200, y: 20}
   progressBarEmpty: {fileID: 0}
   progressBarFull: {fileID: 0}
 --- !u!1001 &255946476

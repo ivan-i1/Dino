@@ -40,7 +40,7 @@ public class Rabbit : MonoBehaviour {
 
 			if (currentState == State.Idle) {
 				Destroy(this.transform.parent.gameObject);
-				currentEnergy.energy += 0.05f;
+				currentEnergy.energy += 0.10f;
 			}
 			else {
 				currentEnergy.energy -= 0.20f;
