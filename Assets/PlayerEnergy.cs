@@ -18,6 +18,7 @@ public class PlayerEnergy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		energy -= Time.deltaTime * energyDrainRate;
+		energy = Mathf.Min(1.0f, energy);
 
 		if (energy <= 0) {
 			Die ();
