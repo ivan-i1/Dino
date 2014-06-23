@@ -16,6 +16,7 @@ public class Rabbit : MonoBehaviour {
 	private State currentState;
 	private CharacterController2D _controller;
 	private Vector3 _velocity;
+	private PlayerEnergy currentEnergy;
 
 	// Use this for initialization
 	void Start () {
@@ -25,12 +26,14 @@ public class Rabbit : MonoBehaviour {
 		_controller.onControllerCollidedEvent += onControllerCollider;
 
 		target = GameObject.FindWithTag ("Player");
+		currentEnergy = target.GetComponentInChildren <PlayerEnergy>();
 	}
 
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if (other.gameObject.tag == "Player") {
-			Debug.Log("AAAA");
+	void OnTriggerEnter2D(Collider2D thing){
+		Debug.Log ("Rabbit Collision!!" + thing);
+		if(thing.tag == "Player"){
+			Debug.Log ("Player Attacked!");
+			currentEnergy.energy -= 0.20f;
 		}
 	}
 
