@@ -9,8 +9,8 @@ public class Rabbit : MonoBehaviour {
 		Jumping
 	}
 
-	public float AttackDistance = 5f;
-	public float gravity = -25f;
+	public float AttackDistance = 3f;
+	public float gravity = -15f;
 
 	private GameObject target;
 	private State currentState;
@@ -31,9 +31,17 @@ public class Rabbit : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D thing){
 		Debug.Log ("Rabbit Collision!!" + thing);
+
 		if(thing.tag == "Player"){
 			Debug.Log ("Player Attacked!");
-			currentEnergy.energy -= 0.20f;
+
+			if (currentState == State.Idle) {
+				Destroy(this.transform.parent.gameObject);
+				currentEnergy.energy += 0.05f;
+			}
+			else {
+				currentEnergy.energy -= 0.20f;
+			}
 		}
 	}
 
@@ -55,22 +63,30 @@ public class Rabbit : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		_velocity = _controller.velocity;
+		bool isClose = Vector3.Distance (target.transform.position, transform.position) <= AttackDistance;
 
 		switch (currentState) {
 		case State.Idle:
-			if (target.transform.position.x > transform.position.x &&
-			    Vector3.Distance (target.transform.position, transform.position) <= AttackDistance) {
+			// - AttackDistance / 2.0f
+			_velocity.x = 0f;
+
+			if (target.transform.position.x > transform.position.x) {
 				currentState = State.JumpTowardsPlayer;
 			}
 			break;
 
 		case State.JumpTowardsPlayer:
-			WaitForAttack(0.5f);
+			//WaitForAttack(0.5f);
+			_velocity = target.transform.position - transform.position;
+			_velocity.y += 5f;
+			_velocity.x = Mathf.Min(2.0f, _velocity.x);
+			//_velocity.x *= 1.5f;
+			currentState = State.Jumping;
 			break;
 
 		case State.Jumping:
 			if (_controller.isGrounded) {
-				currentState = State.Idle;
+				currentState = isClose ? State.JumpTowardsPlayer : State.Idle;
 			}
 
 			break;
