@@ -18,9 +18,10 @@ public class Pickups : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D thing){
-		Debug.Log ("Rabbit Collision!!" + thing);
+		Debug.Log ("Watermelon Collision!!" + thing);
 		if(thing.tag == "Player"){
 			Debug.Log ("Yummy!");
+			Destroy(this.transform.parent.gameObject);
 			currentEnergy.energy += 0.20f;
 		}
 	}
