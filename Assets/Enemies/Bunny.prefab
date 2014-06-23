@@ -97,10 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f99e3ad51d258a48a9fd1a506b3610b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDistance: 3
+  AttackDistance: 2
   gravity: -15
-  AttackSpeed: 2.5999999
+  AttackSpeed: 2.70000005
   JumpHeight: 5
+  IsAlwaysAttacking: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -113,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usePhysicsForMovement: 0
-  _skinWidth: .123000003
+  _skinWidth: .158000007
   platformMask:
     serializedVersion: 2
     m_Bits: 1
@@ -141,7 +142,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  totalHorizontalRays: 8
+  totalHorizontalRays: 4
   totalVerticalRays: 4
   createTriggerHelperGameObject: 0
   triggerHelperBoxColliderScale: .949999988
