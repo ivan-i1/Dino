@@ -1,0 +1,115 @@
+fileFormatVersion: 2
+guid: 0716ae4dfcc7b754ba7a68d070a6d938
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cielo_00+32Tiles
+    100002: FONDO_04+32Tiles
+    100004: //RootNode
+    100006: lava_02+22
+    100008: Nubesfelices_01+22
+    100010: Terrenin_05+22
+    100012: Terrenin_05+32Tiles
+    100014: Volcanes_03+22
+    100016: Volcanes_03+32Tiles
+    100018: FONDO_04+22
+    400000: Cielo_00+32Tiles
+    400002: FONDO_04+32Tiles
+    400004: //RootNode
+    400006: lava_02+22
+    400008: Nubesfelices_01+22
+    400010: Terrenin_05+22
+    400012: Terrenin_05+32Tiles
+    400014: Volcanes_03+22
+    400016: Volcanes_03+32Tiles
+    400018: FONDO_04+22
+    2300000: Cielo_00+32Tiles
+    2300002: FONDO_04+32Tiles
+    2300004: lava_02+22
+    2300006: Nubesfelices_01+22
+    2300008: Terrenin_05+22
+    2300010: Terrenin_05+32Tiles
+    2300012: Volcanes_03+22
+    2300014: Volcanes_03+32Tiles
+    2300016: FONDO_04+22
+    3300000: Cielo_00+32Tiles
+    3300002: FONDO_04+32Tiles
+    3300004: lava_02+22
+    3300006: Nubesfelices_01+22
+    3300008: Terrenin_05+22
+    3300010: Terrenin_05+32Tiles
+    3300012: Volcanes_03+22
+    3300014: Volcanes_03+32Tiles
+    3300016: FONDO_04+22
+    4300000: Cielo_00+32Tiles
+    4300002: FONDO_04+32Tiles
+    4300004: lava_02+22
+    4300006: Nubesfelices_01+22
+    4300008: Terrenin_05+22
+    4300010: Terrenin_05+32Tiles
+    4300012: Volcanes_03+22
+    4300014: Volcanes_03+32Tiles
+    4300016: FONDO_04+22
+    11400000: Cielo_00+32Tiles
+    11400002: FONDO_04+32Tiles
+    11400004: lava_02+22
+    11400006: Nubesfelices_01+22
+    11400008: Terrenin_05+22
+    11400010: Terrenin_05+32Tiles
+    11400012: Volcanes_03+22
+    11400014: Volcanes_03+32Tiles
+    11400016: FONDO_04+22
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 0
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 

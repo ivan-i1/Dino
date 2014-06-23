@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour {
 	
 	void onControllerCollider( RaycastHit2D hit )
 	{
-
+		// _controller.skinWidth = 0.22f;
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
