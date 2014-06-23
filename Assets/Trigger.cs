@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Trigger : MonoBehaviour {
 
-	public string currentLevel, levelSwitch;
+	public string currentLevel;
 	
 	// Use this for initialization
 	void Start () {
@@ -12,14 +12,15 @@ public class Trigger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Return)){
-			reset();
-		}
+
 	}
 	
 	void OnTriggerEnter2D(Collider2D thing){
-		Debug.Log ("Collision!!");
-		reset ();
+		Debug.Log ("Collision!!" + thing);
+		if(thing.tag == "Danger"){
+			Debug.Log ("Danger Touched");
+			reset ();
+		}
 	}
 	
 	void reset(){
