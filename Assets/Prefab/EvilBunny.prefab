@@ -28,7 +28,6 @@ GameObject:
   - 50: {fileID: 5000000}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400004}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -103,6 +102,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,18 +147,6 @@ MonoBehaviour:
   totalVerticalRays: 4
   createTriggerHelperGameObject: 0
   triggerHelperBoxColliderScale: .949999988
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
