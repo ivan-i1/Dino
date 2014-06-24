@@ -20,6 +20,7 @@ public class Rabbit : MonoBehaviour {
 	private CharacterController2D _controller;
 	private Vector3 _velocity;
 	private PlayerEnergy currentEnergy;
+	public Sprite evil;
 
 	// Use this for initialization
 	void Start () {
@@ -59,6 +60,8 @@ public class Rabbit : MonoBehaviour {
 		bool isClose = Vector3.Distance (target.transform.position, transform.position) <= AttackDistance;
 		bool isRight = target.transform.position.x > transform.position.x;
 
+
+
 		switch (currentState) {
 		case State.Idle:
 			// - AttackDistance / 2.0f
@@ -76,6 +79,7 @@ public class Rabbit : MonoBehaviour {
 			//_velocity.x = Mathf.Min(AttackSpeed, _velocity.x + 0.3f); // jumps a bit ahead of the player
 			_velocity.x = isRight ? AttackSpeed : -AttackSpeed;
 			currentState = State.Jumping;
+			GetComponent<SpriteRenderer>().sprite = evil;
 			break;
 
 		case State.Jumping:

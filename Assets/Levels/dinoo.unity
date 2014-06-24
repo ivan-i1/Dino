@@ -115,7 +115,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -427,7 +427,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -590,7 +590,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -726,7 +726,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -871,7 +871,6 @@ GameObject:
   - 50: {fileID: 197645866}
   - 114: {fileID: 197645865}
   - 114: {fileID: 197645864}
-  - 114: {fileID: 197645863}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -891,19 +890,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 797259951}
   m_RootOrder: 0
---- !u!114 &197645863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1127578105}
-  m_GameObject: {fileID: 197645861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &197645864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,6 +907,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &197645865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1078,7 +1065,6 @@ GameObject:
   - 50: {fileID: 212788348}
   - 114: {fileID: 212788347}
   - 114: {fileID: 212788346}
-  - 114: {fileID: 212788345}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -1086,19 +1072,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &212788345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 27948485}
-  m_GameObject: {fileID: 212788344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &212788346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1116,6 +1089,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &212788347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1451,7 +1425,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -1485,7 +1459,7 @@ Transform:
   m_Children:
   - {fileID: 2100815207}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
 --- !u!1001 &261536138
 Prefab:
   m_ObjectHideFlags: 0
@@ -1527,7 +1501,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -1638,7 +1612,7 @@ Transform:
   m_Children:
   - {fileID: 277279567}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
 --- !u!1 &272717777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,6 +1650,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &272717779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1821,6 +1796,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &277279563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1956,7 +1932,7 @@ Transform:
   m_Children:
   - {fileID: 1301097831}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
 --- !u!1001 &299031976
 Prefab:
   m_ObjectHideFlags: 0
@@ -1998,7 +1974,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -2032,7 +2008,7 @@ Transform:
   m_Children:
   - {fileID: 1463488784}
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 50
 --- !u!1 &317585174
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,7 +2036,7 @@ Transform:
   m_Children:
   - {fileID: 212788351}
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 56
 --- !u!1 &324410624
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,7 +2370,7 @@ Transform:
   m_Children:
   - {fileID: 860781726}
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 44
 --- !u!1 &414063593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,7 +2398,7 @@ Transform:
   m_Children:
   - {fileID: 1416447268}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
 --- !u!1 &416933581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2450,7 +2426,7 @@ Transform:
   m_Children:
   - {fileID: 1687242037}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
 --- !u!1 &431712281
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,7 +2598,7 @@ Transform:
   m_Children:
   - {fileID: 2015673759}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
 --- !u!1 &502484459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,7 +2674,7 @@ Transform:
   m_Children:
   - {fileID: 896503765}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 30
 --- !u!1001 &524619362
 Prefab:
   m_ObjectHideFlags: 0
@@ -2837,7 +2813,6 @@ GameObject:
   - 50: {fileID: 533263399}
   - 114: {fileID: 533263398}
   - 114: {fileID: 533263397}
-  - 114: {fileID: 533263396}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -2845,19 +2820,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &533263396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1078416778}
-  m_GameObject: {fileID: 533263395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &533263397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2875,6 +2837,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &533263398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3024,7 +2987,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -3072,7 +3035,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -3156,6 +3119,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &561825772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3319,7 +3283,7 @@ Transform:
   m_Children:
   - {fileID: 1429776181}
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 54
 --- !u!1 &590709959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,7 +3393,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -3505,7 +3469,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -3561,6 +3525,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &626446855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3728,7 +3693,7 @@ Transform:
   m_Children:
   - {fileID: 264770124}
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 43
 --- !u!1001 &668269702
 Prefab:
   m_ObjectHideFlags: 0
@@ -3770,7 +3735,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -3818,7 +3783,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -3862,6 +3827,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &678156819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4024,7 +3990,7 @@ Transform:
   m_LocalScale: {x: 200, y: 1.50999999, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 57
 --- !u!1 &733002642
 GameObject:
   m_ObjectHideFlags: 0
@@ -4167,7 +4133,7 @@ Transform:
   m_Children:
   - {fileID: 1149646375}
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 55
 --- !u!1 &749418266
 GameObject:
   m_ObjectHideFlags: 0
@@ -4266,7 +4232,7 @@ Transform:
   m_Children:
   - {fileID: 1013744629}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 38
 --- !u!1 &752908202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4365,7 +4331,7 @@ Transform:
   m_Children:
   - {fileID: 1458634273}
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 51
 --- !u!1 &780040685
 GameObject:
   m_ObjectHideFlags: 0
@@ -4447,6 +4413,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &782005689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4659,7 +4626,7 @@ Transform:
   m_Children:
   - {fileID: 197645862}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
 --- !u!1001 &807499812
 Prefab:
   m_ObjectHideFlags: 0
@@ -4735,7 +4702,7 @@ Transform:
   m_Children:
   - {fileID: 1195763299}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
 --- !u!1 &820260141
 GameObject:
   m_ObjectHideFlags: 0
@@ -4791,7 +4758,7 @@ Transform:
   m_Children:
   - {fileID: 1207277420}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 34
 --- !u!1 &839582072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4877,7 +4844,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 48
 --- !u!114 &839582078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4929,7 +4896,7 @@ Transform:
   m_Children:
   - {fileID: 533263402}
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 53
 --- !u!1001 &853471045
 Prefab:
   m_ObjectHideFlags: 0
@@ -5027,6 +4994,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &860781728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5150,7 +5118,7 @@ Transform:
   m_Children:
   - {fileID: 1325005806}
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 39
 --- !u!1001 &879120999
 Prefab:
   m_ObjectHideFlags: 0
@@ -5192,7 +5160,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -5276,6 +5244,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &896503767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5427,7 +5396,7 @@ Transform:
   m_Children:
   - {fileID: 360913097}
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 37
 --- !u!1 &907807088
 GameObject:
   m_ObjectHideFlags: 0
@@ -5483,7 +5452,7 @@ Transform:
   m_Children:
   - {fileID: 1723006614}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 28
 --- !u!1 &915906235
 GameObject:
   m_ObjectHideFlags: 0
@@ -5511,7 +5480,7 @@ Transform:
   m_Children:
   - {fileID: 1390651491}
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 41
 --- !u!1 &930478988
 GameObject:
   m_ObjectHideFlags: 0
@@ -5539,7 +5508,7 @@ Transform:
   m_Children:
   - {fileID: 1621883677}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
 --- !u!1 &947703192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5857,7 +5826,7 @@ Transform:
   m_Children:
   - {fileID: 626446853}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
 --- !u!1001 &1044987229
 Prefab:
   m_ObjectHideFlags: 0
@@ -6197,7 +6166,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 54
+      value: 53
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -6289,6 +6258,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1106888091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6507,7 +6477,7 @@ Transform:
   - {fileID: 1519218894}
   - {fileID: 502484460}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 1
 --- !u!1001 &1127528194
 Prefab:
   m_ObjectHideFlags: 0
@@ -6597,7 +6567,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -6617,7 +6587,6 @@ GameObject:
   - 50: {fileID: 1149646379}
   - 114: {fileID: 1149646378}
   - 114: {fileID: 1149646377}
-  - 114: {fileID: 1149646376}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -6637,19 +6606,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 747923709}
   m_RootOrder: 0
---- !u!114 &1149646376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 597187599}
-  m_GameObject: {fileID: 1149646374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1149646377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6667,6 +6623,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1149646378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6800,6 +6757,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1162627132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6935,7 +6893,7 @@ Transform:
   m_Children:
   - {fileID: 1640500347}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
 --- !u!1 &1195763293
 GameObject:
   m_ObjectHideFlags: 0
@@ -6973,6 +6931,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1195763295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7130,6 +7089,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1207277422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7263,6 +7223,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1214805160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7592,7 +7553,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -7626,7 +7587,7 @@ Transform:
   m_Children:
   - {fileID: 1109780181}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
 --- !u!1001 &1275951982
 Prefab:
   m_ObjectHideFlags: 0
@@ -7672,7 +7633,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -7720,7 +7681,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -7740,7 +7701,6 @@ GameObject:
   - 50: {fileID: 1301097835}
   - 114: {fileID: 1301097834}
   - 114: {fileID: 1301097833}
-  - 114: {fileID: 1301097832}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -7760,19 +7720,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 287268599}
   m_RootOrder: 0
---- !u!114 &1301097832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1320312716}
-  m_GameObject: {fileID: 1301097830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1301097833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7790,6 +7737,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1301097834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7913,7 +7861,7 @@ Transform:
   m_Children:
   - {fileID: 525942719}
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 42
 --- !u!1 &1310662052
 GameObject:
   m_ObjectHideFlags: 0
@@ -7998,7 +7946,6 @@ GameObject:
   - 50: {fileID: 1318565400}
   - 114: {fileID: 1318565399}
   - 114: {fileID: 1318565398}
-  - 114: {fileID: 1318565397}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -8018,19 +7965,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431712282}
   m_RootOrder: 0
---- !u!114 &1318565397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1842021977}
-  m_GameObject: {fileID: 1318565395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1318565398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8048,6 +7982,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1318565399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8185,7 +8120,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -8281,7 +8216,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -8301,7 +8236,6 @@ GameObject:
   - 50: {fileID: 1325005803}
   - 114: {fileID: 1325005802}
   - 114: {fileID: 1325005801}
-  - 114: {fileID: 1325005800}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -8309,19 +8243,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1325005800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1265445100}
-  m_GameObject: {fileID: 1325005799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1325005801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8339,6 +8260,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1325005802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8488,7 +8410,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64ea1ca450605d84eb165e46a8825fb3, type: 2}
@@ -8522,7 +8444,7 @@ Transform:
   m_Children:
   - {fileID: 1420425355}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 58
 --- !u!1001 &1366285314
 Prefab:
   m_ObjectHideFlags: 0
@@ -8675,7 +8597,7 @@ Transform:
   m_Children:
   - {fileID: 1964774140}
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 49
 --- !u!1001 &1404151210
 Prefab:
   m_ObjectHideFlags: 0
@@ -8737,7 +8659,6 @@ GameObject:
   - 50: {fileID: 1411346470}
   - 114: {fileID: 1411346469}
   - 114: {fileID: 1411346468}
-  - 114: {fileID: 1411346467}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -8745,19 +8666,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1411346467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 879120999}
-  m_GameObject: {fileID: 1411346466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1411346468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8775,6 +8683,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1411346469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8997,6 +8906,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1420425351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9266,7 +9176,6 @@ GameObject:
   - 50: {fileID: 1458634270}
   - 114: {fileID: 1458634269}
   - 114: {fileID: 1458634268}
-  - 114: {fileID: 1458634267}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -9274,19 +9183,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1458634267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 3544034}
-  m_GameObject: {fileID: 1458634266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1458634268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9304,6 +9200,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1458634269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9544,7 +9441,7 @@ Transform:
   m_Children:
   - {fileID: 678156823}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
 --- !u!1 &1500560561
 GameObject:
   m_ObjectHideFlags: 0
@@ -10184,7 +10081,7 @@ Transform:
   m_Children:
   - {fileID: 21592664}
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 52
 --- !u!1 &1640500346
 GameObject:
   m_ObjectHideFlags: 0
@@ -10198,7 +10095,6 @@ GameObject:
   - 50: {fileID: 1640500351}
   - 114: {fileID: 1640500350}
   - 114: {fileID: 1640500349}
-  - 114: {fileID: 1640500348}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -10218,19 +10114,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1180386813}
   m_RootOrder: 0
---- !u!114 &1640500348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1324853860}
-  m_GameObject: {fileID: 1640500346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1640500349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10248,6 +10131,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1640500350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10421,6 +10305,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1687242039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10530,7 +10415,6 @@ GameObject:
   - 50: {fileID: 1718181418}
   - 114: {fileID: 1718181417}
   - 114: {fileID: 1718181416}
-  - 114: {fileID: 1718181415}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -10550,19 +10434,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2085951620}
   m_RootOrder: 0
---- !u!114 &1718181415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1291636341}
-  m_GameObject: {fileID: 1718181413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1718181416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10580,6 +10451,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1718181417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10713,6 +10585,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1723006610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11049,7 +10922,7 @@ Transform:
   m_Children:
   - {fileID: 1534091121}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
 --- !u!1001 &1765643346
 Prefab:
   m_ObjectHideFlags: 0
@@ -11125,7 +10998,7 @@ Transform:
   m_Children:
   - {fileID: 1723492742}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1001 &1791012921
 Prefab:
   m_ObjectHideFlags: 0
@@ -11167,7 +11040,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 58
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -11187,7 +11060,6 @@ GameObject:
   - 50: {fileID: 1814022456}
   - 114: {fileID: 1814022455}
   - 114: {fileID: 1814022454}
-  - 114: {fileID: 1814022453}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -11195,19 +11067,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1814022453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1765643346}
-  m_GameObject: {fileID: 1814022452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &1814022454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11225,6 +11084,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1814022455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11360,7 +11220,7 @@ Transform:
   m_Children:
   - {fileID: 2059672604}
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 47
 --- !u!1 &1837283678
 GameObject:
   m_ObjectHideFlags: 0
@@ -11388,7 +11248,7 @@ Transform:
   m_Children:
   - {fileID: 784300861}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
 --- !u!1001 &1841991093
 Prefab:
   m_ObjectHideFlags: 0
@@ -11578,7 +11438,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b31f1c30241185419d9a3de694b0cb0, type: 2}
@@ -11950,6 +11810,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &1938965989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12221,7 +12082,7 @@ Transform:
   m_Children:
   - {fileID: 180931325}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
 --- !u!1 &1994926427
 GameObject:
   m_ObjectHideFlags: 0
@@ -12277,7 +12138,7 @@ Transform:
   m_Children:
   - {fileID: 1938965987}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
 --- !u!1 &1999790284
 GameObject:
   m_ObjectHideFlags: 0
@@ -12305,7 +12166,7 @@ Transform:
   m_Children:
   - {fileID: 1566980232}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
 --- !u!1 &2015673753
 GameObject:
   m_ObjectHideFlags: 0
@@ -12343,6 +12204,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &2015673755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12507,7 +12369,7 @@ Transform:
   m_Children:
   - {fileID: 2145908929}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
 --- !u!1 &2059672600
 GameObject:
   m_ObjectHideFlags: 0
@@ -12652,7 +12514,7 @@ Transform:
   m_Children:
   - {fileID: 1718181414}
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 36
 --- !u!1001 &2089706720
 Prefab:
   m_ObjectHideFlags: 0
@@ -12844,7 +12706,7 @@ Transform:
   m_Children:
   - {fileID: 1411346473}
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 45
 --- !u!1 &2100815201
 GameObject:
   m_ObjectHideFlags: 0
@@ -12883,6 +12745,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 0
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &2100815203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13030,7 +12893,7 @@ Transform:
   m_Children:
   - {fileID: 1929601867}
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 46
 --- !u!1 &2141428162
 GameObject:
   m_ObjectHideFlags: 0
@@ -13072,7 +12935,6 @@ GameObject:
   - 50: {fileID: 2145908933}
   - 114: {fileID: 2145908932}
   - 114: {fileID: 2145908931}
-  - 114: {fileID: 2145908930}
   m_Layer: 10
   m_Name: goodbunny
   m_TagString: Enemy
@@ -13092,19 +12954,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2054381056}
   m_RootOrder: 0
---- !u!114 &2145908930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 64ea1ca450605d84eb165e46a8825fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1330280862}
-  m_GameObject: {fileID: 2145908928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91617b53236cddb4e88112314a1c0e18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 
 --- !u!114 &2145908931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13122,6 +12971,7 @@ MonoBehaviour:
   AttackSpeed: 2.70000005
   JumpHeight: 5
   IsAlwaysAttacking: 1
+  evil: {fileID: 21300000, guid: 785362ec80cc4714cbd8711f6d05212f, type: 3}
 --- !u!114 &2145908932
 MonoBehaviour:
   m_ObjectHideFlags: 0
