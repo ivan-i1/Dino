@@ -10,6 +10,8 @@ public class Plant : MonoBehaviour
 
     public int StemCount = 4;
 
+    public bool StemGoesDown = true;
+
     public bool Wiggles = true;
 
     public GameObject Stem;
@@ -24,7 +26,7 @@ public class Plant : MonoBehaviour
 
         for (int i = 1; i < StemCount; i++)
         {
-            s = Instantiate(Stem, Stem.transform.position + new Vector3(0f, -0.15f * i, 0f), new Quaternion()) as GameObject;
+            s = Instantiate(Stem, Stem.transform.position + new Vector3(0f, 0.15f * i * (StemGoesDown ? -1f : 1f), 0f), new Quaternion()) as GameObject;
             s.transform.parent = this.gameObject.transform.parent.transform;
         }
 
