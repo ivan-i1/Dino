@@ -6,17 +6,23 @@ ModelImporter:
     100000: Background_00+Tileset00
     100002: //RootNode
     100004: Player_01+Tileset00
+    100006: OneSide_02+Tileset00
     400000: Background_00+Tileset00
     400002: //RootNode
     400004: Player_01+Tileset00
+    400006: OneSide_02+Tileset00
     2300000: Background_00+Tileset00
     2300002: Player_01+Tileset00
+    2300004: OneSide_02+Tileset00
     3300000: Background_00+Tileset00
     3300002: Player_01+Tileset00
+    3300004: OneSide_02+Tileset00
     4300000: Background_00+Tileset00
     4300002: Player_01+Tileset00
+    4300004: OneSide_02+Tileset00
     11400000: Background_00+Tileset00
     11400002: Player_01+Tileset00
+    11400004: OneSide_02+Tileset00
   materials:
     importMaterials: 0
     materialName: 0

@@ -24,7 +24,7 @@ public class Pickups : MonoBehaviour {
 		if(thing.tag == "Player"){
 			Debug.Log ("Yummy!");
 			Destroy(this.transform.parent.gameObject);
-			currentEnergy.energy += 0.20f;
+			currentEnergy.energy += 0.15f;
 			scr.mainScore += 100.0f;
 		}
 	}
