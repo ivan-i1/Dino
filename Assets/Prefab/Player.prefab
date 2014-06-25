@@ -13,9 +13,13 @@ GameObject:
   - 61: {fileID: 6100000}
   - 50: {fileID: 5000000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400010}
   m_Layer: 9
   m_Name: dino
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,14 +102,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usePhysicsForMovement: 0
-  _skinWidth: .0199999996
+  _skinWidth: .200000003
   platformMask:
     serializedVersion: 2
     m_Bits: 1
   oneWayPlatformMask:
     serializedVersion: 2
-    m_Bits: 0
-  slopeLimit: 58.2000008
+    m_Bits: 8192
+  slopeLimit: 50.5
   slopeSpeedMultiplier:
     serializedVersion: 2
     m_Curve:
@@ -121,7 +125,7 @@ MonoBehaviour:
       tangentMode: 10
     m_PreInfinity: 2
     m_PostInfinity: 2
-  totalHorizontalRays: 8
+  totalHorizontalRays: 4
   totalVerticalRays: 4
   createTriggerHelperGameObject: 0
   triggerHelperBoxColliderScale: .949999988
@@ -141,6 +145,67 @@ MonoBehaviour:
   groundDamping: 10
   jumpHeight: 1.5
   maxFallSpeed: 10
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a81454edeed053459d9012595a77342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPosition: {x: 0, y: 0, z: 0}
+  EndPosition: {x: 0, y: 0, z: 0}
+  barDisplay: 0
+  pos: {x: 20, y: 40}
+  size: {x: 20, y: 150}
+  progressBarEmpty: {fileID: 0}
+  progressBarFull: {fileID: 0}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6bc0fda5f80cd44825e88fe08a4f92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barDisplay: 0
+  pos: {x: 20, y: 40}
+  size: {x: 60, y: 20}
+  progressBarEmpty: {fileID: 0}
+  progressBarFull: {fileID: 0}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdebda748cfe2b84c84dd34b7667a7f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energy: 1
+  energyDrainRate: .0500000007
+  resetAfterDeathTime: 5
+  currentLevel: 
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce57738cac371714aac8b5847c459901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainScore: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
