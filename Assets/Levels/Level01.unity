@@ -837,7 +837,7 @@ Transform:
   - {fileID: 526411108}
   - {fileID: 1948706049}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 6
 --- !u!1 &415327842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Wiggle: .150000006
   WiggleSpeed: 4
-  EnergyRecoverAmount: .150000006
+  EnergyRecoverAmount: .0500000007
   ScoreAmount: 750
   Wiggles: 1
 --- !u!212 &448127553
@@ -1415,7 +1415,7 @@ Transform:
   m_Children:
   - {fileID: 1452059081}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
 --- !u!1 &867641494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,7 +1444,7 @@ Transform:
   - {fileID: 2054028028}
   - {fileID: 448127550}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 3
 --- !u!1 &898044874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,7 +1472,7 @@ Transform:
   m_Children:
   - {fileID: 1026225513}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &918231563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Wiggle: .150000006
   WiggleSpeed: 4
-  EnergyRecoverAmount: .150000006
+  EnergyRecoverAmount: .0500000007
   ScoreAmount: 750
   Wiggles: 1
 --- !u!212 &927651916
@@ -1592,7 +1592,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1007855403}
   - 60: {fileID: 1007855404}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1791,7 +1791,7 @@ Transform:
   m_Children:
   - {fileID: 80259783}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1001 &1250942354
 Prefab:
   m_ObjectHideFlags: 0
@@ -1838,6 +1838,18 @@ Prefab:
     - target: {fileID: 100004, guid: b8a416ffe31bbd74282aed6bfe61c3bb, type: 2}
       propertyPath: m_Name
       value: OneSide_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b8a416ffe31bbd74282aed6bfe61c3bb, type: 2}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: b8a416ffe31bbd74282aed6bfe61c3bb, type: 2}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: b8a416ffe31bbd74282aed6bfe61c3bb, type: 2}
+      propertyPath: m_Layer
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b8a416ffe31bbd74282aed6bfe61c3bb, type: 2}
@@ -1896,7 +1908,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 1
 --- !u!1001 &1389397018
 Prefab:
   m_ObjectHideFlags: 0
@@ -2316,7 +2328,7 @@ GameObject:
   - 33: {fileID: 1517922490}
   - 23: {fileID: 1517922489}
   - 114: {fileID: 1517922488}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: OneSide_02+Tileset00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2478,7 +2490,7 @@ Transform:
   m_Children:
   - {fileID: 172986252}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
 --- !u!1 &1767683627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,7 +2665,7 @@ Transform:
   m_Children:
   - {fileID: 235289916}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 10
 --- !u!1001 &1898638356
 Prefab:
   m_ObjectHideFlags: 0
@@ -2758,7 +2770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Wiggle: .150000006
   WiggleSpeed: 4
-  EnergyRecoverAmount: .150000006
+  EnergyRecoverAmount: .0500000007
   ScoreAmount: 750
   Wiggles: 1
 --- !u!212 &1948706052
@@ -3053,7 +3065,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2096265300}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: OneSide_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
