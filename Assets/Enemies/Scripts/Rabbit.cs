@@ -20,6 +20,7 @@ public class Rabbit : MonoBehaviour {
 	private CharacterController2D _controller;
 	private Vector3 _velocity;
 	private PlayerEnergy currentEnergy;
+	private Score scr;
 	public Sprite evil;
 
 	// Use this for initialization
@@ -31,6 +32,7 @@ public class Rabbit : MonoBehaviour {
 
 		target = GameObject.FindWithTag ("Player");
 		currentEnergy = target.GetComponentInChildren <PlayerEnergy>();
+		scr = target.GetComponentInChildren<Score> ();
 	}
 
 	void OnTriggerEnter2D(Collider2D thing){
@@ -42,6 +44,7 @@ public class Rabbit : MonoBehaviour {
 			if (currentState == State.Idle) {
 				Destroy(this.transform.parent.gameObject);
 				currentEnergy.energy += 0.10f;
+				scr.mainScore += 500;
 			}
 			else {
 				currentEnergy.energy -= 0.20f;
