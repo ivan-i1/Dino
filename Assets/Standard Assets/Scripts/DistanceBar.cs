@@ -8,7 +8,7 @@ public class DistanceBar : MonoBehaviour
 
     public float barDisplay = 0;
     
-    public Vector2 pos = new Vector2(20, 40);
+    public Vector2 pos = new Vector2(200, 40);
     public Vector2 size = new Vector2(20, 150);
 
     public Texture2D progressBarEmpty;

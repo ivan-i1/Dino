@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<Tiled2Unity version="0.9.2.0">
+  <Prefab name="Level00">
+    <GameObject name="Foreground_00" />
+    <GameObject name="Player_01" />
+    <GameObject name="Background_02" />
+  </Prefab>
+  <ImportMesh filename="Level00.obj">IyBXYXZlZnJvbnQgT0JKIGZpbGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYnkgVGlsZWQyVW5pdHkNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSAwKQ0KDQojIFRleHR1cmUgQ29vcmluZGF0ZXMgKENvdW50ID0gMCkNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIEdyb3VwcyAoQ291bnQgPSAwKQ0K</ImportMesh>
+</Tiled2Unity>

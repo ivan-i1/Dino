@@ -4888,7 +4888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f956195aa825e0408593b9ec8da0e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dampTime: .5
+  dampTime: .300000012
   target: {fileID: 217927491}
 --- !u!114 &839582079
 MonoBehaviour:

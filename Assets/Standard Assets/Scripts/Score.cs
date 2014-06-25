@@ -24,6 +24,6 @@ public class Score : MonoBehaviour {
 	}
 
 	void OnGUI(){
-		GUI.Box (new Rect(10,10,100,25),("Score: "+(int)mainScore));
+		GUI.Box (new Rect(700,10,100,25),("Score: "+(int)mainScore));
 	}
 }
