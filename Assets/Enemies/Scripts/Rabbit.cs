@@ -45,7 +45,7 @@ public class Rabbit : MonoBehaviour
             if (currentState == State.Idle)
             {
                 Destroy(this.transform.parent.gameObject);
-                currentEnergy.energy += 0.10f;
+                currentEnergy.energy += 0.05f;
 				scr.mainScore += 500;
             }
             else

@@ -6,7 +6,7 @@ public class PlantStem : MonoBehaviour
 {
     public float Wiggle = 0.15f;
     public float WiggleSpeed = 4f;
-    public float EnergyRecoverAmount = 0.15f;
+    public float EnergyRecoverAmount = 0.05f;
     public float ScoreAmount = 750f;
 
     public bool Wiggles = true;

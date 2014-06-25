@@ -126,6 +126,7 @@ MonoBehaviour:
   Wiggle: .150000006
   WiggleSpeed: 4
   StemCount: 8
+  StemGoesDown: 1
   Wiggles: 1
   Stem: {fileID: 100004}
 --- !u!114 &11400002
@@ -141,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Wiggle: .150000006
   WiggleSpeed: 4
-  EnergyRecoverAmount: .150000006
+  EnergyRecoverAmount: .0500000007
   ScoreAmount: 750
   Wiggles: 1
 --- !u!212 &21200000

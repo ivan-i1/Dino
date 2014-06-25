@@ -158,10 +158,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartPosition: {x: 0, y: 0, z: 0}
-  EndPosition: {x: 0, y: 0, z: 0}
+  EndPosition: {x: 200, y: 0, z: 0}
   barDisplay: 0
-  pos: {x: 20, y: 40}
-  size: {x: 20, y: 150}
+  pos: {x: 20, y: 600}
+  size: {x: 900, y: 20}
   progressBarEmpty: {fileID: 0}
   progressBarFull: {fileID: 0}
 --- !u!114 &11400006
@@ -176,10 +176,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barDisplay: 0
-  pos: {x: 20, y: 40}
-  size: {x: 60, y: 20}
+  pos: {x: 20, y: 20}
+  size: {x: 300, y: 20}
   progressBarEmpty: {fileID: 0}
-  progressBarFull: {fileID: 0}
+  progressBarFull: {fileID: 2800000, guid: 2d53deb906a1da840a6c1c1a5e90204c, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
