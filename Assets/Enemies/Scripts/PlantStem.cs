@@ -7,6 +7,7 @@ public class PlantStem : MonoBehaviour
     public float Wiggle = 0.15f;
     public float WiggleSpeed = 4f;
     public float EnergyRecoverAmount = 0.15f;
+    public float ScoreAmount = 750f;
 
     public bool Wiggles = true;
 
@@ -24,6 +25,7 @@ public class PlantStem : MonoBehaviour
         {
             Destroy(this.transform.parent.gameObject);
             other.GetComponent<PlayerEnergy>().energy += EnergyRecoverAmount;
+            other.GetComponent<Score>().mainScore += ScoreAmount;
         }
     }
 
