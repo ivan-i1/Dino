@@ -2,12 +2,10 @@
 using System.Collections;
 
 public class Trigger : MonoBehaviour {
-
-	public string currentLevel;
 	
 	// Use this for initialization
 	void Start () {
-		
+		//Application.LoadLevel (0);
 	}
 	
 	// Update is called once per frame
@@ -16,15 +14,9 @@ public class Trigger : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D thing){
-		Debug.Log ("Collision!!" + thing);
-		if(thing.tag == "Danger"){
-			Debug.Log ("Danger Touched");
-			reset ();
+
+		if(thing.tag == "Player"){
+			Application.LoadLevel (Application.loadedLevel + 1);
 		}
 	}
-	
-	void reset(){
-		Application.LoadLevel (currentLevel);
-	}
-	
 }

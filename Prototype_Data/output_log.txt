@@ -15,68 +15,26 @@ Platform assembly: C:\Users\David\Documents\Dino\Dino\Prototype_Data\Managed\Ass
 Loading C:\Users\David\Documents\Dino\Dino\Prototype_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\David\Documents\Dino\Dino\Prototype_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading C:\Users\David\Documents\Dino\Dino\Prototype_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.139 seconds
+- Completed reload, in  0.218 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
 <RI> Input initialized.
-1
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 269)
+
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 269)
+
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-2
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-3
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-4
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-5
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-6
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-7
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-BBBB
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-BBBB
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!PlantStem(Clone) (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!square (UnityEngine.BoxCollider2D)
+Yummy!
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
@@ -88,7 +46,102 @@ Yummy!
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Collision!!square (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Yummy!
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 4.728895 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14529 unused Assets to reduce memory usage. Loaded Objects now: 749.
+Total: 73.856354 ms (FindLiveObjects: 1.300368 ms CreateObjectMapping: 4.252747 ms MarkObjects: 0.680082 ms  DeleteObjects: 66.074669 ms)
+
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Yummy!
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 269)
+
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 269)
+
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Yummy!
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.464673 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 6657 unused Assets to reduce memory usage. Loaded Objects now: 748.
+Total: 33.901497 ms (FindLiveObjects: 1.353471 ms CreateObjectMapping: 2.772988 ms MarkObjects: 0.680528 ms  DeleteObjects: 27.138153 ms)
+
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 269)
+
+UnloadTime: 3.369176 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 705 unused Assets to reduce memory usage. Loaded Objects now: 749.
+Total: 6.158229 ms (FindLiveObjects: 0.197241 ms CreateObjectMapping: 0.283367 ms MarkObjects: 0.568966 ms  DeleteObjects: 3.215666 ms)
+
+UnloadTime: 3.221467 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 377 unused Assets to reduce memory usage. Loaded Objects now: 748.
+Total: 4.122889 ms (FindLiveObjects: 0.126288 ms CreateObjectMapping: 0.182069 ms MarkObjects: 0.540853 ms  DeleteObjects: 1.379354 ms)
+
+UnloadTime: 2.244183 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 297 unused Assets to reduce memory usage. Loaded Objects now: 748.
+Total: 3.150514 ms (FindLiveObjects: 0.124503 ms CreateObjectMapping: 0.174483 ms MarkObjects: 0.588601 ms  DeleteObjects: 0.876878 ms)
+
+UnloadTime: 2.709620 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 313 unused Assets to reduce memory usage. Loaded Objects now: 748.
+Total: 2.989864 ms (FindLiveObjects: 0.121379 ms CreateObjectMapping: 0.167789 ms MarkObjects: 0.570751 ms  DeleteObjects: 0.885356 ms)
+
+UnloadTime: 2.334772 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 281 unused Assets to reduce memory usage. Loaded Objects now: 749.
+Total: 2.901061 ms (FindLiveObjects: 0.117363 ms CreateObjectMapping: 0.167343 ms MarkObjects: 0.582354 ms  DeleteObjects: 0.792983 ms)
+
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 269)
+
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 269)
+
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Yummy!
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
@@ -100,7 +153,11 @@ Yummy!
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Collision!!square (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
+ 
+(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Yummy!
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
@@ -112,59 +169,14 @@ Yummy!
  
 (Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-BBBB
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+UnloadTime: 5.359890 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+Unloading 27321 unused Assets to reduce memory usage. Loaded Objects now: 748.
+Total: 131.262192 ms (FindLiveObjects: 2.585117 ms CreateObjectMapping: 8.850446 ms MarkObjects: 0.764423 ms  DeleteObjects: 117.715889 ms)
 
-Collision!!square (UnityEngine.BoxCollider2D)
+Level '' (1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
  
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-BBBB
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-BBBB
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-BBBB
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Collision!!square (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/aeedb04a1292f85a/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+(Filename:  Line: 269)
 

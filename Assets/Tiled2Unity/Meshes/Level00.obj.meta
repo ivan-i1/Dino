@@ -5,12 +5,18 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     100002: Player_01+TILES1280
+    100004: Player_01+Tileset01
     400000: //RootNode
     400002: Player_01+TILES1280
+    400004: Player_01+Tileset01
     2300000: Player_01+TILES1280
+    2300002: Player_01+Tileset01
     3300000: Player_01+TILES1280
+    3300002: Player_01+Tileset01
     4300000: Player_01+TILES1280
+    4300002: Player_01+Tileset01
     11400000: Player_01+TILES1280
+    11400002: Player_01+Tileset01
   materials:
     importMaterials: 0
     materialName: 0

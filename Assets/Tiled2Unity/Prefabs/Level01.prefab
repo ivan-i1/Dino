@@ -184,7 +184,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
-  - {fileID: 400006}
+  - {fileID: 400018}
   m_Father: {fileID: 400004}
   m_RootOrder: 2
 --- !u!4 &400004
@@ -213,7 +213,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400002}
+  m_Father: {fileID: 400012}
   m_RootOrder: 1
 --- !u!4 &400008
 Transform:
@@ -250,7 +250,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400010}
-  - {fileID: 400018}
+  - {fileID: 400006}
   m_Father: {fileID: 400004}
   m_RootOrder: 1
 --- !u!4 &400014
@@ -288,7 +288,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400012}
+  m_Father: {fileID: 400002}
   m_RootOrder: 1
 --- !u!23 &2300000
 Renderer:
@@ -382,29 +382,6 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
-    - - {x: 2208, y: -775}
-      - {x: 2336, y: -775}
-      - {x: 2336, y: -768}
-      - {x: 2208, y: -768}
-    - - {x: 2368, y: -839}
-      - {x: 2496, y: -839}
-      - {x: 2496, y: -832}
-      - {x: 2368, y: -832}
-    - - {x: 1952, y: -839}
-      - {x: 2176, y: -839}
-      - {x: 2176, y: -832}
-      - {x: 1952, y: -832}
---- !u!60 &6000002
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100018}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
     - - {x: 1856, y: -992}
       - {x: 1856, y: -832}
       - {x: 1760, y: -832}
@@ -434,6 +411,29 @@ PolygonCollider2D:
       - {x: 0, y: -1600}
       - {x: 6400, y: -1600}
       - {x: 6400, y: -992}
+--- !u!60 &6000002
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: 2208, y: -775}
+      - {x: 2336, y: -775}
+      - {x: 2336, y: -768}
+      - {x: 2208, y: -768}
+    - - {x: 2368, y: -839}
+      - {x: 2496, y: -839}
+      - {x: 2496, y: -832}
+      - {x: 2368, y: -832}
+    - - {x: 1952, y: -839}
+      - {x: 2176, y: -839}
+      - {x: 2176, y: -832}
+      - {x: 1952, y: -832}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1

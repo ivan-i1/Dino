@@ -20,12 +20,13 @@ public class PlayerEnergy : MonoBehaviour {
 		energy -= Time.deltaTime * energyDrainRate;
 		energy = Mathf.Min(1.0f, energy);
 
-		if (energy <= 0) {
+		if (energy <= 0 || Input.GetKeyDown(KeyCode.Return)) {
 			Die ();
 		}
 	}
 
 	void Die() {
-		Application.LoadLevel (currentLevel);
+		Destroy (this.transform.parent.gameObject);
+		Application.LoadLevel (Application.loadedLevel);
 	}
 }
