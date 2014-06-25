@@ -16,7 +16,7 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		current += Time.deltaTime * advanceRate;
-		Debug.Log (""+(int)mainScore+"\n");
+		
 		if (current > 9.9f) {
 			current = 0f;
 			mainScore += 10f;

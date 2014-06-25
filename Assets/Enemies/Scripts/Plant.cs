@@ -8,7 +8,11 @@ public class Plant : MonoBehaviour
     public float Wiggle = 0.15f;
     public float WiggleSpeed = 4f;
 
+    public int StemCount = 4;
+
     public bool Wiggles = true;
+
+    public GameObject Stem;
 
     private Vector3 _origPosition;
 
@@ -16,6 +20,16 @@ public class Plant : MonoBehaviour
     void Start()
     {
         _origPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
+        GameObject s = Stem;
+
+        for (int i = 1; i < StemCount; i++)
+        {
+            s = Instantiate(Stem, Stem.transform.position + new Vector3(0f, -0.15f * i, 0f), new Quaternion()) as GameObject;
+            s.transform.parent = this.gameObject.transform.parent.transform;
+            Debug.Log(i);
+        }
+
+        s.GetComponent<PlantStem>().Wiggles = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)

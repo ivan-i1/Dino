@@ -40,12 +40,8 @@ public class Rabbit : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D thing)
     {
-        Debug.Log("Rabbit Collision!!" + thing);
-
         if (thing.tag == "Player")
         {
-            Debug.Log("Player Attacked!");
-
             if (currentState == State.Idle)
             {
                 Destroy(this.transform.parent.gameObject);
