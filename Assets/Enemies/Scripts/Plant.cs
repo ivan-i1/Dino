@@ -26,7 +26,6 @@ public class Plant : MonoBehaviour
         {
             s = Instantiate(Stem, Stem.transform.position + new Vector3(0f, -0.15f * i, 0f), new Quaternion()) as GameObject;
             s.transform.parent = this.gameObject.transform.parent.transform;
-            Debug.Log(i);
         }
 
         s.GetComponent<PlantStem>().Wiggles = false;
