@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Plant : MonoBehaviour
+public class PlantStem : MonoBehaviour
 {
-    public float Damage = 0.35f;
-
     public float Wiggle = 0.15f;
     public float WiggleSpeed = 4f;
+    public float EnergyRecoverAmount = 0.15f;
 
     public bool Wiggles = true;
 
@@ -22,7 +22,8 @@ public class Plant : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.GetComponent<PlayerEnergy>().energy -= Damage;
+            Destroy(this.transform.parent.gameObject);
+            other.GetComponent<PlayerEnergy>().energy += EnergyRecoverAmount;
         }
     }
 
