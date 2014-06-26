@@ -18,6 +18,7 @@ GameObject:
   - 114: {fileID: 11400008}
   - 114: {fileID: 11400010}
   - 114: {fileID: 11400012}
+  - 95: {fileID: 9500000}
   m_Layer: 9
   m_Name: dino
   m_TagString: Player
@@ -91,6 +92,20 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .159999996, y: .159999996}
   m_Center: {x: 0, y: 0}
+--- !u!95 &9500000
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38db88117610c2d419239521a18d1d4d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -160,10 +175,9 @@ MonoBehaviour:
   StartPosition: {x: 0, y: 0, z: 0}
   EndPosition: {x: 200, y: 0, z: 0}
   barDisplay: 0
-  pos: {x: 20, y: 600}
-  size: {x: 900, y: 20}
   progressBarEmpty: {fileID: 0}
   progressBarFull: {fileID: 0}
+  FlagSign: {fileID: 2800000, guid: 16967cc9efc4e6047a7cb230d6600422, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -176,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barDisplay: 0
-  pos: {x: 20, y: 20}
+  pos: {x: 5, y: 5}
   size: {x: 300, y: 20}
   progressBarEmpty: {fileID: 2800000, guid: 85f38bfa7cd53a8419cb72536706c981, type: 3}
   progressBarFull: {fileID: 2800000, guid: 19ce23009b574da418db2f29233726a0, type: 3}

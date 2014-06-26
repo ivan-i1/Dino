@@ -15,13 +15,15 @@ public class PlayerController : MonoBehaviour
     private float normalizedHorizontalSpeed = 0;
 
     private CharacterController2D _controller;
-    //private Animator _animator;
+    private Animator _animator;
     private RaycastHit2D _lastControllerColliderHit;
     private Vector3 _velocity;
 
+    private bool wasGrounded = false;
+
     void Awake()
     {
-        //_animator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
         _controller = GetComponent<CharacterController2D>();
 
         // listen to some events for illustration purposes
@@ -57,8 +59,8 @@ public class PlayerController : MonoBehaviour
         if (transform.localScale.x < 0f)
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 
-        //if( _controller.isGrounded )
-        //	_animator.Play( Animator.StringToHash( "Run" ) );
+        if (!wasGrounded && _controller.isGrounded)
+            _animator.Play(Animator.StringToHash("Run"));
 
         if (_velocity.y > 0 && !Input.GetKey(KeyCode.Space))
         {
@@ -69,9 +71,8 @@ public class PlayerController : MonoBehaviour
         if (_controller.isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             _velocity.y = Mathf.Sqrt(2f * jumpHeight * -gravity);
-            //_animator.Play( Animator.StringToHash( "Jump" ) );
+            _animator.Play(Animator.StringToHash("Jump"));
         }
-
 
         // apply horizontal speed smoothing it
         _velocity.x = Mathf.Lerp(_velocity.x, normalizedHorizontalSpeed * runSpeed, Time.deltaTime * groundDamping);
@@ -80,5 +81,21 @@ public class PlayerController : MonoBehaviour
         _velocity.y = Mathf.Min(_velocity.y + gravity * Time.deltaTime, maxFallSpeed);
 
         _controller.move(_velocity * Time.deltaTime);
+
+        wasGrounded = _controller.isGrounded;
+    }
+
+    public void Hurt(float damage)
+    {
+        if (_controller.isGrounded)
+        {
+            _animator.Play(Animator.StringToHash("RunDamage"));
+        }
+        else
+        {
+            _animator.Play(Animator.StringToHash("JumpDamage"));
+        }
+        
+        this.GetComponent<PlayerEnergy>().energy -= damage;
     }
 }

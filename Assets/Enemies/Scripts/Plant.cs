@@ -37,7 +37,7 @@ public class Plant : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.GetComponent<PlayerEnergy>().energy -= Damage;
+            other.GetComponent<PlayerController>().Hurt(Damage);
         }
     }
 

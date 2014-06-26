@@ -5,7 +5,7 @@ public class ResizeCamera : MonoBehaviour
 {
     void Awake()
     {
-        camera.orthographicSize = ((Screen.height / 2.0f) / 100f);
+        //camera.orthographicSize = ((Screen.height / 2.0f) / 100f);
         Screen.SetResolution(640, 280, false, 60);
     }
 
