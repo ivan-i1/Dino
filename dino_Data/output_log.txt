@@ -15,1689 +15,827 @@ Platform assembly: D:\code\Dino\dino_Data\Managed\Assembly-CSharp.dll (this mess
 Loading D:\code\Dino\dino_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: D:\code\Dino\dino_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading D:\code\Dino\dino_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.076 seconds
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+- Completed reload, in  0.086 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
 <RI> Input initialized.
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-BBBB
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
- 
-(Filename: D Line: 0)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Player Attacked!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
- 
-(Filename: D Line: 0)
-
-Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-BBBB
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
- 
-(Filename: D Line: 0)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Player Attacked!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
- 
-(Filename: D Line: 0)
-
-Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-BBBB
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
- 
-(Filename: D Line: 0)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Player Attacked!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-BBBB
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
- 
-(Filename: D Line: 0)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Player Attacked!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-BBBB
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
- 
-(Filename: D Line: 0)
-
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
-
-Player Attacked!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
- 
-(Filename: D Line: 0)
-
-Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+PlayerConnection accepted from [192.168.1.73] handle:0x818
+Profiler is only supported with Pro License
  
-(Filename: D Line: 0)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Profiler/ProfilerConnection.cpp Line: 218)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-BBBB
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Player Attacked!
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-BBBB
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Player Attacked!
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-BBBB
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
+Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Player Attacked!
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-BBBB
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Player Attacked!
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
- 
-(Filename: D Line: 0)
+UnloadTime: 4.177112 ms
+System memory in use before: 21.0 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 17.6 MB.
 
-Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
+Unloading 27039 unused Assets to reduce memory usage. Loaded Objects now: 296.
+Total: 495.461151 ms (FindLiveObjects: 2.546318 ms CreateObjectMapping: 5.480843 ms MarkObjects: 0.266327 ms  DeleteObjects: 485.762970 ms)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
-
-UnloadTime: 2.082195 ms
-System memory in use before: 11.7 MB.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 11.1 MB.
 
-Unloading 4693 unused Assets to reduce memory usage. Loaded Objects now: 734.
-Total: 26.579384 ms (FindLiveObjects: 0.270020 ms CreateObjectMapping: 0.686952 ms MarkObjects: 0.241295 ms  DeleteObjects: 24.186132 ms)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
+UnloadTime: 1.592218 ms
+System memory in use before: 17.6 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 14.7 MB.
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
+Unloading 9964 unused Assets to reduce memory usage. Loaded Objects now: 778.
+Total: 85.352776 ms (FindLiveObjects: 0.499004 ms CreateObjectMapping: 1.431355 ms MarkObjects: 0.341013 ms  DeleteObjects: 81.961105 ms)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
+UnloadTime: 2.183966 ms
+System memory in use before: 16.5 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 15.1 MB.
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
+Unloading 12281 unused Assets to reduce memory usage. Loaded Objects now: 778.
+Total: 133.895340 ms (FindLiveObjects: 0.738247 ms CreateObjectMapping: 1.355848 ms MarkObjects: 0.431704 ms  DeleteObjects: 130.254166 ms)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
+UnloadTime: 3.845126 ms
+System memory in use before: 16.7 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 15.4 MB.
 
-Rabbit Collision!!_noname-polygon (UnityEngine.PolygonCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
+Unloading 11777 unused Assets to reduce memory usage. Loaded Objects now: 778.
+Total: 129.832718 ms (FindLiveObjects: 0.922502 ms CreateObjectMapping: 2.311589 ms MarkObjects: 0.375894 ms  DeleteObjects: 124.703972 ms)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-BBBB
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Player Attacked!
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!dino (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Player Attacked!
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!dino (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-BBBB
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
+UnloadTime: 2.460962 ms
+System memory in use before: 16.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 15.7 MB.
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
+Unloading 10857 unused Assets to reduce memory usage. Loaded Objects now: 778.
+Total: 97.489342 ms (FindLiveObjects: 0.591336 ms CreateObjectMapping: 1.365286 ms MarkObjects: 0.402568 ms  DeleteObjects: 93.960602 ms)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-BBBB
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-PlayerController:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\CharacterController2D\PlayerController.cs:43)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Rabbit Collision!!dino (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:23)
  
 (Filename: D Line: 0)
 
-Player Attacked!
+Yummy!
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:39)
+Pickups:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Pickups.cs:25)
  
 (Filename: D Line: 0)
 
-Collision!!dino (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
+Level '' (3) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+UnityEngine.Application:LoadLevelAsync(String, Int32, Boolean, Boolean)
+UnityEngine.Application:LoadLevel(Int32) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineApplication.cs:56)
 Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
-
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
+[C:/BuildAgent/work/d63dfc6385190b60/Runtime/Misc/Player.cpp line 269] 
+(Filename: C Line: 0)
 
-Rabbit Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Rabbit:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Enemies\Scripts\Rabbit.cs:36)
- 
-(Filename: D Line: 0)
+UnloadTime: 2.466297 ms
+System memory in use before: 18.4 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 16.5 MB.
 
-Collision!!_noname-rectangle (UnityEngine.BoxCollider2D)
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-Trigger:OnTriggerEnter2D(Collider2D) (at D:\code\Dino\Assets\Standard Assets\Scripts\Trigger.cs:19)
- 
-(Filename: D Line: 0)
+Unloading 14865 unused Assets to reduce memory usage. Loaded Objects now: 779.
+Total: 167.142761 ms (FindLiveObjects: 1.014423 ms CreateObjectMapping: 1.682909 ms MarkObjects: 0.402568 ms  DeleteObjects: 162.907776 ms)
 
+Waiting for finish

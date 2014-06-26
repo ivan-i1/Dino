@@ -11,10 +11,9 @@ public class CameraFollow2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (target)
         {
-            Vector3 targetPosition = target.position + new Vector3(2.5f, 0, 0);
+            Vector3 targetPosition = target.position + new Vector3(1.5f, 0, 0);
             //targetPosition.y = 1.5f;
             Vector3 point = camera.WorldToViewportPoint(targetPosition);
             Vector3 delta = targetPosition - camera.ViewportToWorldPoint(new Vector3(0.3f, 0.5f, point.z)); //(new Vector3(0.5, 0.5, point.z));
