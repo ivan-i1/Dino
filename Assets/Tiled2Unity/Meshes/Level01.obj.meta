@@ -10,6 +10,11 @@ ModelImporter:
     100008: Background_00+Tileset00
     100010: OneSide_02+Tileset00
     100012: Player_01+Tileset00
+    100014: Background_01+Tileset01
+    100016: Foreground_04+Tileset01
+    100018: OneSide_03+Tileset01
+    100020: Player_02+Tileset01
+    100022: Sky_00+Tileset01
     400000: //RootNode
     400002: Tile_Layer_1_00+Tileset00
     400004: OneSide_01+Tileset00
@@ -17,30 +22,55 @@ ModelImporter:
     400008: Background_00+Tileset00
     400010: OneSide_02+Tileset00
     400012: Player_01+Tileset00
+    400014: Background_01+Tileset01
+    400016: Foreground_04+Tileset01
+    400018: OneSide_03+Tileset01
+    400020: Player_02+Tileset01
+    400022: Sky_00+Tileset01
     2300000: Tile_Layer_1_00+Tileset00
     2300002: OneSide_01+Tileset00
     2300004: Player_00+Tileset00
     2300006: Background_00+Tileset00
     2300008: OneSide_02+Tileset00
     2300010: Player_01+Tileset00
+    2300012: Background_01+Tileset01
+    2300014: Foreground_04+Tileset01
+    2300016: OneSide_03+Tileset01
+    2300018: Player_02+Tileset01
+    2300020: Sky_00+Tileset01
     3300000: Tile_Layer_1_00+Tileset00
     3300002: OneSide_01+Tileset00
     3300004: Player_00+Tileset00
     3300006: Background_00+Tileset00
     3300008: OneSide_02+Tileset00
     3300010: Player_01+Tileset00
+    3300012: Background_01+Tileset01
+    3300014: Foreground_04+Tileset01
+    3300016: OneSide_03+Tileset01
+    3300018: Player_02+Tileset01
+    3300020: Sky_00+Tileset01
     4300000: Tile_Layer_1_00+Tileset00
     4300002: OneSide_01+Tileset00
     4300004: Player_00+Tileset00
     4300006: Background_00+Tileset00
     4300008: OneSide_02+Tileset00
     4300010: Player_01+Tileset00
+    4300012: Background_01+Tileset01
+    4300014: Foreground_04+Tileset01
+    4300016: OneSide_03+Tileset01
+    4300018: Player_02+Tileset01
+    4300020: Sky_00+Tileset01
     11400000: Tile_Layer_1_00+Tileset00
     11400002: OneSide_01+Tileset00
     11400004: Player_00+Tileset00
     11400006: Background_00+Tileset00
     11400008: OneSide_02+Tileset00
     11400010: Player_01+Tileset00
+    11400012: Background_01+Tileset01
+    11400014: Foreground_04+Tileset01
+    11400016: OneSide_03+Tileset01
+    11400018: Player_02+Tileset01
+    11400020: Sky_00+Tileset01
   materials:
     importMaterials: 0
     materialName: 0
