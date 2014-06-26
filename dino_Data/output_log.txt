@@ -15,108 +15,54 @@ Platform assembly: D:\code\Dino\dino_Data\Managed\Assembly-CSharp.dll (this mess
 Loading D:\code\Dino\dino_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: D:\code\Dino\dino_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading D:\code\Dino\dino_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.103 seconds
+- Completed reload, in  0.094 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
 <RI> Input initialized.
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
+Yummy!
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-UnloadTime: 2.317334 ms
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Yummy!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Yummy!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 3.518885 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 8217 unused Assets to reduce memory usage. Loaded Objects now: 829.
-Total: 16.966158 ms (FindLiveObjects: 0.503518 ms CreateObjectMapping: 1.174876 ms MarkObjects: 0.426780 ms  DeleteObjects: 14.078004 ms)
-
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-UnloadTime: 1.277468 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 3681 unused Assets to reduce memory usage. Loaded Objects now: 829.
-Total: 6.711530 ms (FindLiveObjects: 0.170712 ms CreateObjectMapping: 0.373843 ms MarkObjects: 0.226521 ms  DeleteObjects: 5.184970 ms)
-
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!goodbunny (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+Unloading 19257 unused Assets to reduce memory usage. Loaded Objects now: 843.
+Total: 46.793179 ms (FindLiveObjects: 1.600426 ms CreateObjectMapping: 4.176291 ms MarkObjects: 0.403799 ms  DeleteObjects: 39.839119 ms)
 
