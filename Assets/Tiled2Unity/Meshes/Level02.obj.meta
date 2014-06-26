@@ -7,22 +7,90 @@ ModelImporter:
     100002: //RootNode
     100004: Player_01+Tileset00
     100006: OneSide_02+Tileset00
+    100008: Background_00+Tileset01
+    100010: OneSide_02+Tileset01
+    100012: Player_01+Tileset01
+    100014: Background_00+Tileset01_MeshPart0
+    100016: Background_00+Tileset01_MeshPart1
+    100018: Background_01+Tileset01
+    100020: Foreground_04+Tileset01
+    100022: OneSide_03+Tileset01
+    100024: Player_02+Tileset01
+    100026: Sky_00+Tileset01
+    100028: Sky_00+Tileset01_MeshPart0
+    100030: Sky_00+Tileset01_MeshPart1
     400000: Background_00+Tileset00
     400002: //RootNode
     400004: Player_01+Tileset00
     400006: OneSide_02+Tileset00
+    400008: Background_00+Tileset01
+    400010: OneSide_02+Tileset01
+    400012: Player_01+Tileset01
+    400014: Background_00+Tileset01_MeshPart0
+    400016: Background_00+Tileset01_MeshPart1
+    400018: Background_01+Tileset01
+    400020: Foreground_04+Tileset01
+    400022: OneSide_03+Tileset01
+    400024: Player_02+Tileset01
+    400026: Sky_00+Tileset01
+    400028: Sky_00+Tileset01_MeshPart0
+    400030: Sky_00+Tileset01_MeshPart1
     2300000: Background_00+Tileset00
     2300002: Player_01+Tileset00
     2300004: OneSide_02+Tileset00
+    2300006: Background_00+Tileset01
+    2300008: OneSide_02+Tileset01
+    2300010: Player_01+Tileset01
+    2300012: Background_00+Tileset01_MeshPart0
+    2300014: Background_00+Tileset01_MeshPart1
+    2300016: Background_01+Tileset01
+    2300018: Foreground_04+Tileset01
+    2300020: OneSide_03+Tileset01
+    2300022: Player_02+Tileset01
+    2300024: Sky_00+Tileset01_MeshPart0
+    2300026: Sky_00+Tileset01_MeshPart1
     3300000: Background_00+Tileset00
     3300002: Player_01+Tileset00
     3300004: OneSide_02+Tileset00
+    3300006: Background_00+Tileset01
+    3300008: OneSide_02+Tileset01
+    3300010: Player_01+Tileset01
+    3300012: Background_00+Tileset01_MeshPart0
+    3300014: Background_00+Tileset01_MeshPart1
+    3300016: Background_01+Tileset01
+    3300018: Foreground_04+Tileset01
+    3300020: OneSide_03+Tileset01
+    3300022: Player_02+Tileset01
+    3300024: Sky_00+Tileset01_MeshPart0
+    3300026: Sky_00+Tileset01_MeshPart1
     4300000: Background_00+Tileset00
     4300002: Player_01+Tileset00
     4300004: OneSide_02+Tileset00
+    4300006: Background_00+Tileset01
+    4300008: OneSide_02+Tileset01
+    4300010: Player_01+Tileset01
+    4300012: Background_00+Tileset01_MeshPart0
+    4300014: Background_00+Tileset01_MeshPart1
+    4300016: Background_01+Tileset01
+    4300018: Foreground_04+Tileset01
+    4300020: OneSide_03+Tileset01
+    4300022: Player_02+Tileset01
+    4300024: Sky_00+Tileset01_MeshPart0
+    4300026: Sky_00+Tileset01_MeshPart1
     11400000: Background_00+Tileset00
     11400002: Player_01+Tileset00
     11400004: OneSide_02+Tileset00
+    11400006: Background_00+Tileset01
+    11400008: OneSide_02+Tileset01
+    11400010: Player_01+Tileset01
+    11400012: Background_00+Tileset01_MeshPart0
+    11400014: Background_00+Tileset01_MeshPart1
+    11400016: Background_01+Tileset01
+    11400018: Foreground_04+Tileset01
+    11400020: OneSide_03+Tileset01
+    11400022: Player_02+Tileset01
+    11400024: Sky_00+Tileset01_MeshPart0
+    11400026: Sky_00+Tileset01_MeshPart1
   materials:
     importMaterials: 0
     materialName: 0
