@@ -15,7 +15,7 @@ Platform assembly: D:\code\Dino\dino_Data\Managed\Assembly-CSharp.dll (this mess
 Loading D:\code\Dino\dino_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: D:\code\Dino\dino_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading D:\code\Dino\dino_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.094 seconds
+- Completed reload, in  0.084 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found.
@@ -44,25 +44,9 @@ Yummy!
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Watermelon Collision!!dino (UnityEngine.BoxCollider2D)
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Yummy!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-UnloadTime: 3.518885 ms
+UnloadTime: 2.207356 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 19257 unused Assets to reduce memory usage. Loaded Objects now: 843.
-Total: 46.793179 ms (FindLiveObjects: 1.600426 ms CreateObjectMapping: 4.176291 ms MarkObjects: 0.403799 ms  DeleteObjects: 39.839119 ms)
+Unloading 11769 unused Assets to reduce memory usage. Loaded Objects now: 842.
+Total: 24.005571 ms (FindLiveObjects: 0.712394 ms CreateObjectMapping: 1.481009 ms MarkObjects: 0.347169 ms  DeleteObjects: 20.551111 ms)
 
