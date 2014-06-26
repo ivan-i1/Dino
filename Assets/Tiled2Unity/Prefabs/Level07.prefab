@@ -216,7 +216,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400006}
+  m_Father: {fileID: 400012}
   m_RootOrder: 1
 --- !u!4 &400004
 Transform:
@@ -241,7 +241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
-  - {fileID: 400002}
+  - {fileID: 400008}
   m_Father: {fileID: 400022}
   m_RootOrder: 2
 --- !u!4 &400008
@@ -254,7 +254,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400012}
+  m_Father: {fileID: 400006}
   m_RootOrder: 1
 --- !u!4 &400010
 Transform:
@@ -279,7 +279,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400010}
-  - {fileID: 400008}
+  - {fileID: 400002}
   m_Father: {fileID: 400022}
   m_RootOrder: 1
 --- !u!4 &400014
@@ -468,6 +468,27 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
+    - - {x: 96, y: -1792}
+      - {x: 96, y: 0}
+      - {x: 0, y: 0}
+      - {x: 0, y: -2048}
+      - {x: 1120, y: -2048}
+      - {x: 1120, y: -1792}
+    - - {x: 6208, y: -1792}
+      - {x: 6208, y: -2048}
+      - {x: 8192, y: -2048}
+      - {x: 8192, y: -1792}
+--- !u!60 &6000002
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
     - - {x: 5792, y: -1287}
       - {x: 5952, y: -1287}
       - {x: 5952, y: -1280}
@@ -620,27 +641,6 @@ PolygonCollider2D:
       - {x: 1536, y: -1799}
       - {x: 1536, y: -1792}
       - {x: 1216, y: -1792}
---- !u!60 &6000002
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100008}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: 96, y: -1792}
-      - {x: 96, y: 0}
-      - {x: 0, y: 0}
-      - {x: 0, y: -2048}
-      - {x: 1120, y: -2048}
-      - {x: 1120, y: -1792}
-    - - {x: 6208, y: -1792}
-      - {x: 6208, y: -2048}
-      - {x: 8192, y: -2048}
-      - {x: 8192, y: -1792}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
