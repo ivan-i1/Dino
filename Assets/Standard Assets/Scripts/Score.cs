@@ -1,29 +1,34 @@
 using UnityEngine;
 using System.Collections;
 
-public class Score : MonoBehaviour {
+public class Score : MonoBehaviour
+{
 
-	public float mainScore;
-	private float advanceRate = 20f;
-	private float current = 0f;
+    public float mainScore;
+    private float advanceRate = 20f;
+    private float current = 0f;
 
-	// Use this for initialization
-	void Start () {
-		mainScore = 0f;
-		current = 0f;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		current += Time.deltaTime * advanceRate;
-		
-		if (current > 9.9f) {
-			current = 0f;
-			mainScore += 10f;
-		}
-	}
+    // Use this for initialization
+    void Start()
+    {
+        mainScore = 0f;
+        current = 0f;
+    }
 
-	void OnGUI(){
-		GUI.Box (new Rect(700,10,100,25),("Score: "+(int)mainScore));
-	}
+    // Update is called once per frame
+    void Update()
+    {
+        current += Time.deltaTime * advanceRate;
+
+        if (current > 9.9f)
+        {
+            current = 0f;
+            mainScore += 10f;
+        }
+    }
+
+    void OnGUI()
+    {
+        GUI.Box(new Rect(Screen.width - 105, 5, 100, 25), ("Score: " + (int)mainScore));
+    }
 }
