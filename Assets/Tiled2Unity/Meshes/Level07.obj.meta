@@ -9,28 +9,60 @@ ModelImporter:
     100006: //RootNode
     100008: OneSide_02+Tileset01
     100010: Player_01+Tileset01
+    100012: Background_01+Tileset01
+    100014: OneSide_03+Tileset01
+    100016: Player_02+Tileset01
+    100018: Sky_00+Tileset01
+    100020: Sky_00+Tileset01_MeshPart0
+    100022: Sky_00+Tileset01_MeshPart1
     400000: Background_00+Tileset01
     400002: Background_00+Tileset01_MeshPart0
     400004: Background_00+Tileset01_MeshPart1
     400006: //RootNode
     400008: OneSide_02+Tileset01
     400010: Player_01+Tileset01
+    400012: Background_01+Tileset01
+    400014: OneSide_03+Tileset01
+    400016: Player_02+Tileset01
+    400018: Sky_00+Tileset01
+    400020: Sky_00+Tileset01_MeshPart0
+    400022: Sky_00+Tileset01_MeshPart1
     2300000: Background_00+Tileset01_MeshPart0
     2300002: Background_00+Tileset01_MeshPart1
     2300004: OneSide_02+Tileset01
     2300006: Player_01+Tileset01
+    2300008: Background_01+Tileset01
+    2300010: OneSide_03+Tileset01
+    2300012: Player_02+Tileset01
+    2300014: Sky_00+Tileset01_MeshPart0
+    2300016: Sky_00+Tileset01_MeshPart1
     3300000: Background_00+Tileset01_MeshPart0
     3300002: Background_00+Tileset01_MeshPart1
     3300004: OneSide_02+Tileset01
     3300006: Player_01+Tileset01
+    3300008: Background_01+Tileset01
+    3300010: OneSide_03+Tileset01
+    3300012: Player_02+Tileset01
+    3300014: Sky_00+Tileset01_MeshPart0
+    3300016: Sky_00+Tileset01_MeshPart1
     4300000: Background_00+Tileset01_MeshPart0
     4300002: Background_00+Tileset01_MeshPart1
     4300004: OneSide_02+Tileset01
     4300006: Player_01+Tileset01
+    4300008: Background_01+Tileset01
+    4300010: OneSide_03+Tileset01
+    4300012: Player_02+Tileset01
+    4300014: Sky_00+Tileset01_MeshPart0
+    4300016: Sky_00+Tileset01_MeshPart1
     11400000: Background_00+Tileset01_MeshPart0
     11400002: Background_00+Tileset01_MeshPart1
     11400004: OneSide_02+Tileset01
     11400006: Player_01+Tileset01
+    11400008: Background_01+Tileset01
+    11400010: OneSide_03+Tileset01
+    11400012: Player_02+Tileset01
+    11400014: Sky_00+Tileset01_MeshPart0
+    11400016: Sky_00+Tileset01_MeshPart1
   materials:
     importMaterials: 0
     materialName: 0

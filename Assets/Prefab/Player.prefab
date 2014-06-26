@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartPosition: {x: 0, y: 0, z: 0}
-  EndPosition: {x: 200, y: 0, z: 0}
+  EndPosition: {x: 70, y: 0, z: 0}
   barDisplay: 0
   progressBarEmpty: {fileID: 0}
   progressBarFull: {fileID: 0}

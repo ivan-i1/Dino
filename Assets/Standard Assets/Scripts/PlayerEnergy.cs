@@ -23,6 +23,9 @@ public class PlayerEnergy : MonoBehaviour {
 		if (energy <= 0 || Input.GetKeyDown(KeyCode.Return)) {
 			Die ();
 		}
+		if (Input.GetKeyDown(KeyCode.S)){
+			Application.LoadLevel(Application.loadedLevel + 1);
+		}
 	}
 
 	void Die() {
