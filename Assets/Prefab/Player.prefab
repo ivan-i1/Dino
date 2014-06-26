@@ -103,14 +103,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usePhysicsForMovement: 0
-  _skinWidth: .200000003
+  _skinWidth: .158000007
   platformMask:
     serializedVersion: 2
     m_Bits: 1
   oneWayPlatformMask:
     serializedVersion: 2
     m_Bits: 8192
-  slopeLimit: 50.5
+  slopeLimit: 66.8000031
   slopeSpeedMultiplier:
     serializedVersion: 2
     m_Curve:
@@ -126,7 +126,7 @@ MonoBehaviour:
       tangentMode: 10
     m_PreInfinity: 2
     m_PostInfinity: 2
-  totalHorizontalRays: 4
+  totalHorizontalRays: 2
   totalVerticalRays: 4
   createTriggerHelperGameObject: 0
   triggerHelperBoxColliderScale: .949999988
@@ -178,8 +178,8 @@ MonoBehaviour:
   barDisplay: 0
   pos: {x: 20, y: 20}
   size: {x: 300, y: 20}
-  progressBarEmpty: {fileID: 0}
-  progressBarFull: {fileID: 2800000, guid: 2d53deb906a1da840a6c1c1a5e90204c, type: 3}
+  progressBarEmpty: {fileID: 2800000, guid: 85f38bfa7cd53a8419cb72536706c981, type: 3}
+  progressBarFull: {fileID: 2800000, guid: 19ce23009b574da418db2f29233726a0, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1

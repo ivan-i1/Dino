@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   m_Layer: 10
   m_Name: CeilingPlant
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ GameObject:
   - 61: {fileID: 6100000}
   m_Layer: 0
   m_Name: PlantHead
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - 61: {fileID: 6100002}
   m_Layer: 0
   m_Name: PlantStem
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: .349999994
-  Wiggle: .150000006
+  Wiggle: .0500000007
   WiggleSpeed: 4
   StemCount: 8
   StemGoesDown: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d836f9631f029584ea5d5cb4ebd90b4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wiggle: .150000006
+  Wiggle: .0500000007
   WiggleSpeed: 4
   EnergyRecoverAmount: .0500000007
   ScoreAmount: 750
